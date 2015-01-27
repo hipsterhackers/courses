@@ -49,3 +49,58 @@ Firefox was born out of the Netscape offices in 2004. It is now run by a non pro
 Google Chrome was released in 2008 and as of today has the highest install base. Chrome introduced the V8 Javascript engine. The engine is open source and has provided the base for many other popular web technologies.
 
 ![Google Chrome](http://www8.pcmag.com/media/images/252954-2008-chrome.jpg)
+
+
+## Hands On
+
+**Browser Developer Tools**
+
+A web developer uses the same browsers as any one else with a few exceptions. As a web developer you need the ability to view information about certain items on a page that don't normally matter for the every day user. The easiest way to do this is by extending your browser by enabling features and/or install extensions. Below we will cover the major browsers and show you how to make them more powerful.
+
+Keep in mind this is great for viewing your own web pages to make sure everything is how you expect it to be or find problems. But you can also use these tools to view other websites to see how they make something work. It's the perfect way to learn new tricks.
+
+**Google Chrome**
+
+Chrome is already a powerful browser with some great built in features that just need to be enabled. To enable the developer tools in Chrome you just have to go to the tools menu and select Developer Tools.
+
+This will bring up a window at the bottom of your browser full of information about the web page you are viewing.
+
+![Dev Tools](https://dcavozvb40vtt.cloudfront.net/api/file/DQoMAeP2TQCxrHiWnGlI)
+
+
+**Mozilla Firefox**
+
+Firefox supports the great extension Firebug. First got to [FireBug](http://getfirebug.com) and follow the directions to install the extension. Then you can go to the Tools menu, Web Developer, Firebug to use the extension.
+
+![Firebug](http://debugbrowser.com/img/f2.png)
+
+**Safari**
+
+Don't think that a built in browser can't deliver either. Before Chrome came around Safari developed these features. First you need to go to your preferences the enable the Develop menu.
+
+![Safari](http://debugbrowser.com/img/s2.png)
+
+After you have done that you can show the web inspector from the Develop menu.
+
+![Safari](http://debugbrowser.com/img/s3.png)
+
+**Internet Explorer**
+
+Internet Explorer's options aren't as great as the above two. They are getting better and now provide a extension that you can [install here](http://www.microsoft.com/en-us/download/details.aspx?id=18359).
+
+
+Here is a great resource for seeing how to enable developer tools in your browser of choice. http://debugbrowser.com
+
+**Text Editors**
+
+Editing files for the web is different than editing text for a document, say like using Word for a report. Web pages need to be plain text. Microsoft Word adds many things to a document that you as a user does not see.
+
+There are many editors suited to editing plain text. Here are some options.
+
+* http://www.sublimetext.com/
+* http://macromates.com/
+* http://atom.io/
+
+You can also even use Notepad for Windows or TextEdit for OSX.
+
+Being comfortable with your text editor is key as a web developer. It's the tool that we use the most and will allow you to be productive. No matter what text editor you use, get familiar with all of it's features and strengths.
