@@ -13,6 +13,8 @@ Without CSS and Media on your site, you're just left with plain black text on a 
 
 CSS stands for "Cascading Styles Sheets". When you think of cascading, you usually think of a waterfall. Something that starts at the top, and trickles down to the bottom. In a CSS file, your styles are read from the top down. This is important to remember because CSS files tend to get really large, and without a lot of organization and structure, you could find yourself with some headaches.
 
+CSS file end in a `.css` file extension. This is the file you place your website styles in to group them together. Having all your styles in one single location allows you to change, and fix your styles quicker without having to track down where they are at.
+
 ** Life before CSS**
 
 Before CSS, we used HTML attributes to specify what font to use and which colors we needed. This was horribly inefficient because you were constantly duplicating your styles. You would use a `<font>` tag every time you wanted to change your color or typeface. Layouts were all built with `<table>` tags. Using tables back then was ok, because we didn't have tablets and phones to worry about. Websites didn't need to be responsive, so having a solid structure that didn't move was fine. Now days, using a table restricts your site to which devices it can be viewed on. Here are some [example sites](http://websitesfromhell.net/) to remind you of what the internet looked like before CSS became standard.
@@ -137,10 +139,80 @@ http://website.com/
   |_images
   |  |
   |  |_/logo.jpg
+  |  |_/background.png
+  |  |
+  |  |_/icons
+  |    |
+  |    |_/star.gif
   |
   |_index.html  
-
 ```
+
+Here we have a simple structure for a website. In our file structure, we have a `stylesheets` folder, and a `images` folder. Inside these folders, we have some files, and inside of the `images` folder we have a subfolder called `icons` which has a file in it.
+
+In our `index.html` we want to display our logo. To do this, we need to know the relation of the `logo.jpg` file to that of the `index.html` file where we will be adding the logo in.
+
+```html
+<img src="images/logo.jpg">
+```
+
+Simple as that. As you can see we just did `images/logo.jpg`. This is because the `index.html` file and the `images` folder are "siblings". They exist on the same level as one another. The `logo.jpg` file is considered a child to the `images` folder. So we just separate each part in the file structure with a forward slash `/` character. Now what if we wanted to include our `star.gif` file?
+
+```html
+<img src="images/icons/star.gif">
+```
+
+In that example, we have to include the `icons` folder in the file path. The `star.gif` is a child of the `icons` folder, and the `icons` folder is a child of the `images` folder.
+
+Using this same method, we can now **link** our CSS to our HTML.
+
+```html
+<head>
+  <!-- note: stylesheet links go in the <head> -->
+  <link href="stylesheets/styles.css" rel="stylesheet" type="text/css">
+</head>
+```
+
+As you can see, the `stylesheets` folder and the `index.html` are siblings. Because they are siblings, we can just put the [relative path](http://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/) to the styles.css.
+
+Now, let's say we want to add a background image to our page. Background images are placed in the CSS because this is a style. So let's create our style.
+
+```css
+/* styles.css */
+#page-container {
+  background-image: url("images/background.png");
+}
+```
+```html
+<div id="page-container"></div>
+```
+
+But wait! That didn't work :cry: Why not? Well, the path we specified was relative to the css file. If we look back at the file structure of our site, we'll see that the `styles.css` and the `background.png` are _not_ siblings. I guess you could say they're cousins? You know, since their parents are siblings. In a file structure, we're not allowed to talk to our cousins directly. We have to talk to our parent, then the parent talks to their sibling, and the sibling talks to their child. So this means we need to go up a directory first. When going up 1 directory, we use the `..` path. Ok, let's try this again.
+
+```css
+/* styles.css */
+#page-container {
+  background-image: url("../images/background.png");
+}
+```
+```html
+<div id="page-container"></div>
+```
+
+Ah ha! :thumbsup: That worked. We use the `..` to denote we want to go up to the parent of the file we're in. Then of course, we separate each part of the file path with a forward slash `/` since the parent in this case is "stylesheets". Now, there's another way we could do this, and that would be to use an [absolute path](http://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/). Let's see how that would look.
+
+```css
+/* styles.css */
+#page-container {
+  background-image: url("/images/background.png");
+}
+```
+```html
+<div id="page-container"></div>
+```
+
+Well, would you look at that? It's shorter, and doesn't look weird with the `..` in there. There's a problem though.... The absolute path means starting from the root of the directory structure. If we're working on a website locally, you might notice the URL doesn't say http://website.com, but probably says something more like `file:///Users/jeremy/Sites/hipsterhackers/courses/3-CSS_And_Media/exercises/blog/index.html`. If this is the case, then your `/images` actually looks more like `file:///images`. I know, confusing. This isn't always the case, but could potentially lead to some unwanted issues. If you don't fully understand, that's ok. Just sort of keep it in the back of your mind. If you run into the issue, you'll know to refer back to this (hopefully).
+
 
 ## Hands On
 
