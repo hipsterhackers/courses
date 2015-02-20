@@ -1,0 +1,28 @@
+.container ul.product-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 50px 0 0;
+}
+
+.container ul.product-list li {
+  float: left;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.container ul.product-list li img {
+  width: 80%;
+}
+
+.container ul.product-list li p {
+  margin: 0;
+}
+
+.container ul.product-list li p.name {
+  font-weight: bold;
+  color: violet;
+}
+
+.container ul.product-list li p.price {
+  color: gray;
+}
