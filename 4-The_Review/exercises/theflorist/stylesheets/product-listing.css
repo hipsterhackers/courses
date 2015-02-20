@@ -1,0 +1,20 @@
+#product-listing h1 {
+  margin-bottom: 25px;
+}
+
+#product-listing img {
+  width: 40%;
+}
+
+#product-listing .description {
+  float: right;
+  width: 55%;
+}
+
+#product-listing .description h3 {
+  margin-top: 0;
+}
+
+#product-listing .description p.categories {
+  color: gray;
+}

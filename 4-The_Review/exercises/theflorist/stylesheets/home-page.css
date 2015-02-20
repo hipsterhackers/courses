@@ -1,0 +1,21 @@
+#homepage-hero {
+  text-align: center;
+  padding: 100px 100px 50px;
+  background-size: auto;
+  background-repeat: none;
+  background-position: center bottom;
+  background-image: url(../images/homepage-hero.jpg);
+}
+
+#homepage-hero * {
+  color: white;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#homepage-hero h1 {
+  margin-top: 0;
+  font-size: 64px;
+  text-transform: uppercase;
+}
