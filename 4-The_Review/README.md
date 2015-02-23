@@ -116,6 +116,8 @@ Writing CSS and HTML just takes time and practice like most things. When you fir
 
 ## Hands On
 
+Download the images [here](https://github.com/hipsterhackers/courses/blob/master/4-The_Review/exercises/theflorist/images.zip)
+
 ## Resources
 * http://learn.shayhowe.com/html-css/
 * http://www.codecademy.com/en/tracks/web
