@@ -136,6 +136,28 @@ An empty repository is just like having an empty folder. If you want to save you
 
 Once we add the files into our repository, we need to save our current state with a message. We can refer back to this message a year from now to remember what we did and why we just added those files. To use this command, we type `git commit -m "our message"`. The `-m` just says that we will be typing a message inside of the quotes that follow.
 
+**Back to Github**
+
+At this point we have created a new repository, added a file, and left a commit message. If our computer was stolen right now, our repository would be lost forever. It's time to push this up to github to save it.
+
+Since you're on github.com already, and you should have an account and be logged in at this point, we can go ahead and create a new repository on github.
+
+![New Repo](http://i.imgur.com/s1BGdYF.png)
+
+1. Click on the "New Repository" button
+2. Give it a name like "first_github_repo"
+3. Click the "Create repository" button at the bottom
+
+You'll see a bunch of stuff at this point, but we're really only concerned about one thing. There's a section that mentions "push an existing repository from the command line". We want to run those two lines from our command line.
+
+4. Add a link to github - `git remote add origin git@github.com:jwoertink/first_github_repo.git`
+5. Push code to github - `git push -u origin master`
+
+Now if you go back to github, and refresh that page you were just on, you'll see your new repo sitting there!
+
+**Congrats!**
+
+At this point you've now learned about the terminal, and how to use git. However, this is just the super tip top of the iceberg. We suggest that you go and practice doing that a few more times. Below in the Resources section, you'll see some links to help you learn. Go through those, gather your questions, and bring them to us! Happy coding. :thumbsup:
 
 ## Hands On
 
