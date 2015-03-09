@@ -83,7 +83,7 @@ The `ls` or `list` command will list out all of the files or folders in a specif
 
 **The `rm` Command**
 
-This is the "remove" command which allows us to delete a file or folder. The first argument is just the name of what you want to delete. If you want to delete a folder, you'll need to add a modifier `-r`. So if you wanted to delete that `text_files` folder you could just run `rm -r text_files`. 
+This is the "remove" command which allows us to delete a file or folder. The first argument is just the name of what you want to delete. If you want to delete a folder, you'll need to add a modifier `-r`. So if you wanted to delete that `text_files` folder you could just run `rm -r text_files`.
 
 
 ## Hands On
