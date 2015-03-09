@@ -85,6 +85,57 @@ The `ls` or `list` command will list out all of the files or folders in a specif
 
 This is the "remove" command which allows us to delete a file or folder. The first argument is just the name of what you want to delete. If you want to delete a folder, you'll need to add a modifier `-r`. So if you wanted to delete that `text_files` folder you could just run `rm -r text_files`.
 
+### Git
+
+Now that we've covered a bit of what the terminal is and how to use it, we will talk about `git`. Git is a command line based program, or in other words, a program we run from the command line. It is used to store revisions of your work. It's mostly used for saving code, but there's people politicians that store laws and bills in git.
+
+**Scenarios**
+
+Let's say you're writing a report just like one you'd write for school. It's a 20 page essay on something interesting. You write your first draft, submit it, and get some changes. You make those changes, submit your second draft, and get a few more changes. You write your third draft, submit it, and are told that the first draft was the best. What do you do? Well, if you saved each draft with git, then you just roll back to the first draft and be done with it.
+
+Ok, you have this 20 page essay going, but it's too much work. Changes are being made too often, and you just don't have the time. You want other people to help you out with it. What do you do? Well, with git, you just give access to the documents, and everyone makes their change, then you approve the changes and merge them all into a single document.
+
+These are just use cases for a single file. When you're programming, you'll use hundreds of files or maybe even thousands at a time. Having a way to keep track of who changed what, when the made the change, and a history of every change made on every single file becomes a huge time saving factor.
+
+**Github**
+
+At this point, you're reading this text on a website called Github. This website is a place to store public and private files into groups called [repositories](https://help.github.com/articles/create-a-repo/). If you haven't already signed up for an account, then do so now. [It's Free!](https://github.com/). Once you've signed up, feel free to poke around a bit. There's quite a bit to do on here.
+
+**Git command line**
+
+Next thing we need to do is make sure we have our `git` program installed locally.
+
+1. Open your terminal
+2. type `git --version` (output will vary, and that's fine).
+3. View the version of git installed. Any version will work.
+
+If you got some error like "unrecognized command" or "command not found", then you will need to install git. [Windows](https://msysgit.github.io/) [Mac](http://git-scm.com/download/mac).
+
+**Using git**
+
+Let's create a new folder for some git stuff. Then we will add a file, and push it up to github. We will be running all of these commands from our command line.
+
+1. Create a new folder - `mkdir github_files`
+2. Move into that folder - `cd github_files`
+3. Make a new file - `touch first_file.txt`
+4. Initialize empty git repo - `git init`
+5. Add the file into the empty repo - `git add first_file.txt`
+6. Make a note about our first git usage - `git commit -m "my first commit"`
+
+Ok, the first 3 commands were just basic terminal commands. The next 3 are the very basic git commands that you will use a lot, so let's dig into those.
+
+**The `init` Git Command**
+
+When you want to start a new empty repository, you'll use `git init` inside of the folder that you want to become a git repository.
+
+**The `add` Git Command**
+
+An empty repository is just like having an empty folder. If you want to save your pictures, you need to put them into your pictures folder. We run `git add filename` where `filename` is the name of the file we want to add to our repository. If you have a lot of files you want to add all at once, we can use a shortcut `git add -A`.
+
+**The `commit` Git Command**
+
+Once we add the files into our repository, we need to save our current state with a message. We can refer back to this message a year from now to remember what we did and why we just added those files. To use this command, we type `git commit -m "our message"`. The `-m` just says that we will be typing a message inside of the quotes that follow.
+
 
 ## Hands On
 
