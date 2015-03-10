@@ -159,7 +159,14 @@ Now if you go back to github, and refresh that page you were just on, you'll see
 
 At this point you've now learned about the terminal, and how to use git. However, this is just the super tip top of the iceberg. We suggest that you go and practice doing that a few more times. Below in the Resources section, you'll see some links to help you learn. Go through those, gather your questions, and bring them to us! Happy coding. :thumbsup:
 
-## Hands On
+## Homework
+
+1. Run through the [Try Git](https://try.github.io/levels/1/challenges/1).
+2. Take one of your previous HTML sites, and push it up to a new repository on github
+
+**BONUS**
+
+* Submit a pull request for this document fixing any typos, or clarity issues.
 
 ## Resources
 
