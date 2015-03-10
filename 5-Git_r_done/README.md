@@ -109,7 +109,7 @@ Next thing we need to do is make sure we have our `git` program installed locall
 2. type `git --version` (output will vary, and that's fine).
 3. View the version of git installed. Any version will work.
 
-If you got some error like "unrecognized command" or "command not found", then you will need to install git. [Windows](https://msysgit.github.io/) [Mac](http://git-scm.com/download/mac).
+If you got some error like "unrecognized command" or "command not found", then you will need to install git. [Windows](https://msysgit.github.io/) [Mac](http://git-scm.com/download/mac). For Mac users, you may get a popup talking about installing XCode. You will need to install this for it to work. Be sure you have at least 4GB of free space on your machine.
 
 **Using git**
 
