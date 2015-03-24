@@ -86,6 +86,11 @@ Some template/theme developers will document their work heavily. This is a good 
 
 Download the images [here](https://github.com/hipsterhackers/courses/blob/master/4-The_Review/exercises/theflorist/images.zip)
 
+## Homework
+
+* Get familiar with your tools. Download a code editor like [Atom Editor](http://atom.io/) or [Sublime Text](http://sublimetext.com/). Practice creating folders and files in your editor.
+* Create a simple website using bootstrap. View the documentation [here](http://getbootstrap.com/).
+
 ## Resources
 
 **CSS Frameworks**
