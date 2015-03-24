@@ -84,6 +84,8 @@ Some template/theme developers will document their work heavily. This is a good 
 
 ## Hands On
 
+Download the images [here](https://github.com/hipsterhackers/courses/blob/master/4-The_Review/exercises/theflorist/images.zip)
+
 ## Resources
 
 **CSS Frameworks**
