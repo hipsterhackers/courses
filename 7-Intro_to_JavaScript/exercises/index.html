@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>javascript examples</title>
+  </head>
+  <body>
+    <div id="product-wrap">
+      <div id="product1">
+        <h3>Cheese</h3>
+      </div>
+      <div id="product2">
+        <h3>Meat</h3>
+      </div>
+      <div id="product3">
+        <h3>Veggie</h3>
+      </div>
+    </div>
+    <script type="text/javascript">
+      alert("hello");
+      var wrap = document.querySelector("#product-wrap");
+      var product1 = document.querySelector("#product1");
+      product1.style.backgroundColor = "green";
+
+      var product2 = document.querySelector("#product2");
+      product2.textContent = "Burger";
+
+      var product3 = document.querySelector("#product3 h3");
+      product3.style.fontSize = "36px";
+      console.log(wrap.innerHTML);
+      document.write(window.location.href);
+    </script>
+  </body>
+</html>
