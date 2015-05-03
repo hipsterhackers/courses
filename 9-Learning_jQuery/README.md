@@ -144,6 +144,7 @@ jQuery is just JavaScript code. There's nothing extra fancy about it other then 
 
 ## Hands On
 
+Download this zip file as a starting point. [Download ZIP](https://github.com/hipsterhackers/courses/blob/master/9-Learning_jQuery/exercises/theflorist-before.zip?raw=true)
 
 ## Homework
 [Try jQuery](https://www.codeschool.com/courses/try-jquery)
