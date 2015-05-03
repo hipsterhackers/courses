@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>The Florist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="stylesheets/styles.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-custom">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">The Florist</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li id="cart-count"><a href="cart.html">Items in Your Cart <span>0</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron text-center">
+      <div class="container">
+        <h1>20% off on every item</h1>
+        <p>Florem ipsum columbine speedwell waratah monkshood floss flower. Snapdragon orchid alpine thistle saxifrage. Love lies bleeding prairie gentian kangaroo paw ox-eye daisy. Feverfew amazon lily masterwort eustoma montbretia floris's nighmare red rose. Safflower golden rod, gillyflower sword lily, buttercup.</p>
+      </div>
+    </div>
+
+    <div class="container product-list text-center">
+      <h2>Featured Products</h2>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="product-thumb">
+            <img src="images/products/blooming-bounty-bouquet.jpg" class="img-rounded">
+            <a href="product.html" class="view-product-button">View Product</a>
+          </div>
+          <p class="name">Blooming Bounty Bouquet</p>
+          <p class="price">$95.00</p>
+          <a href="#" class="quick-view-product">Quick View</a>
+        </div>
+
+        <div class="col-md-4">
+          <div class="product-thumb">
+            <img src="images/products/come-rain-or-shine-bouquet.jpg" class="img-rounded product-thumb">
+            <a href="product.html" class="view-product-button">View Product</a>
+          </div>
+          <p class="name">Come Rain or Shine Bouquet</p>
+          <p class="price">$95.00</p>
+          <a href="#" class="quick-view-product">Quick View</a>
+        </div>
+
+        <div class="col-md-4">
+          <div class="product-thumb">
+            <img src="images/products/beauty-calla-lilly-bouquet.jpg" class="img-rounded product-thumb">
+            <a href="product.html" class="view-product-button">View Product</a>
+          </div>
+          <p class="name">Beauty Calla Lily Bouquet</p>
+          <p class="price">$95.00</p>
+          <a href="#" class="quick-view-product">Quick View</a>
+        </div>
+      </div>
+
+      <div class="modal fade" id="product-modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">Product Title</h4>
+            </div>
+            <div class="modal-body">
+              <!-- REPLACE WITH PRODUCT INFORMATION -->
+            </div>
+            <div class="modal-footer">
+              <a href="product.html" class="btn btn-primary">View Product</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  </body>
+</html>
