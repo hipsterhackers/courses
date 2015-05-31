@@ -1,0 +1,60 @@
+.navbar-custom {
+  margin-bottom: 0;
+  background-color: palegreen;
+}
+
+.navbar-custom a {
+  color: green;
+}
+
+.jumbotron {
+  color: white;
+  background-size: auto;
+  background-repeat: none;
+  background-position: center bottom;
+  background-image: url(../images/homepage-hero.jpg);
+}
+
+.jumbotron h1 {
+  text-transform: uppercase;
+}
+
+.product-list h2 {
+  margin-bottom: 40px;
+}
+
+.product-list img {
+  margin-bottom: 10px;
+}
+
+.product-list p.name {
+  font-weight: bold;
+  color: violet;
+}
+
+.product-list p.price {
+  color: gray;
+}
+
+.product-thumb {
+  position: relative;
+}
+
+.product-thumb .view-product-button {
+  display: none;
+  position: absolute;
+  background: violet;
+  bottom: 30px;
+  left: 20%;
+  right: 20%;
+  padding: 10px 0;
+  color: white;
+}
+
+.product img {
+  margin-top: 25px;
+}
+
+.product p.categories {
+  color: gray;
+}

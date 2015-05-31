@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "name": "Blooming Bounty Bouquet",
+    "price": "$95.00",
+    "image": "blooming-bounty-bouquet.jpg",
+    "featured": true,
+    "description": "What do we do when we want to show our thankfulness? We send a card, a gift or something like that. But the most traditional thing that we do is to present flowers. They are a universal gift and believe us - even if you are not a fan, it doesn't matter because it is very pleasant to receive flowers.",
+    "categories": ["Corporete", "Etiam dictum", "Mauris posuere", "Sed blandit massa", "vel mauris"]
+  },
+  {
+    "id": 2,
+    "name": "Beauty Calla Lily Bouquet",
+    "price": "$75.00",
+    "image": "beauty-calla-lilly-bouquet.jpg",
+    "featured": true,
+    "description": "What do we do when we want to show our thankfulness? We send a card, a gift or something like that. But the most traditional thing that we do is to present flowers. They are a universal gift and believe us - even if you are not a fan, it doesn't matter because it is very pleasant to receive flowers.",
+    "categories": ["Corporete", "Etiam dictum", "Mauris posuere", "Sed blandit massa", "vel mauris"]
+  },
+  {
+    "id": 3,
+    "name": "Come Rain or Shine Bouquet",
+    "price": "$55.00",
+    "image": "come-rain-or-shine-bouquet.jpg",
+    "featured": true,
+    "description": "What do we do when we want to show our thankfulness? We send a card, a gift or something like that. But the most traditional thing that we do is to present flowers. They are a universal gift and believe us - even if you are not a fan, it doesn't matter because it is very pleasant to receive flowers.",
+    "categories": ["Corporete", "Etiam dictum", "Mauris posuere", "Sed blandit massa", "vel mauris"]
+  },
+  {
+    "id": 4,
+    "name": "Because You're Special Bouquet",
+    "price": "$85.00",
+    "image": "because-youre-special.jpg",
+    "featured": false,
+    "description": "What do we do when we want to show our thankfulness? We send a card, a gift or something like that. But the most traditional thing that we do is to present flowers. They are a universal gift and believe us - even if you are not a fan, it doesn't matter because it is very pleasant to receive flowers.",
+    "categories": ["Corporete", "Etiam dictum", "Mauris posuere", "Sed blandit massa", "vel mauris"]
+  },
+  {
+    "id": 5,
+    "name": "Bouquet of Tulips",
+    "price": "$35.00",
+    "image": "bouquet-of-tulips.jpg",
+    "featured": false,
+    "description": "What do we do when we want to show our thankfulness? We send a card, a gift or something like that. But the most traditional thing that we do is to present flowers. They are a universal gift and believe us - even if you are not a fan, it doesn't matter because it is very pleasant to receive flowers.",
+    "categories": ["Corporete", "Etiam dictum", "Mauris posuere", "Sed blandit massa", "vel mauris"]
+  },
+  {
+    "id": 6,
+    "name": "Big Hug Bouquet",
+    "price": "$85.00",
+    "image": "big-hug-bouquet.jpg",
+    "featured": false,
+    "description": "What do we do when we want to show our thankfulness? We send a card, a gift or something like that. But the most traditional thing that we do is to present flowers. They are a universal gift and believe us - even if you are not a fan, it doesn't matter because it is very pleasant to receive flowers.",
+    "categories": ["Corporete", "Etiam dictum", "Mauris posuere", "Sed blandit massa", "vel mauris"]
+  }
+]
